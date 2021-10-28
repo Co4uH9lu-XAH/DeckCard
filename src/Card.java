@@ -8,6 +8,8 @@ public class Card {
         this.suit = suit;
         this.nominal = nominal;
     }
+    public String toString() {
+        return this.card + " " + this.suit;
 
-
+    }
 }
