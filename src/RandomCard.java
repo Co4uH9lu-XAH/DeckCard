@@ -9,7 +9,7 @@ public class RandomCard {
     public static Card getCard (ArrayList<Card> deck) {
         Random generator = new Random();
         int r = generator.nextInt(deck.size());
-      //  int n = (int)Math.floor(Math.random() * deck.size());
+        int n = (int)Math.floor(Math.random() * deck.size());
         ArrayList<Card> newDeck = new ArrayList<>();
         newDeck.add(deck.get(r));
         deck.remove(r);
