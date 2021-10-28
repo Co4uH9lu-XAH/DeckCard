@@ -1,7 +1,9 @@
 public class PrisonerSays {
 
     public static void introductorySpeech(){
-        System.out.println("Заходите, гости дорогие. Как говориться, силь ву пле! Парле ву?");
-
+        System.out.println("Здорово! Как звать?");
+    }
+    public static void letsPlay (){
+        System.out.println("Давай играть, " + FromCons.saidString+". Сколько карт тянешь?");
     }
 }
